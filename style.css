@@ -50,7 +50,7 @@ header{
 #content{
     text-align: center;
     #logo{
-        margin-top: 10%;
+        margin-top: 20vmax;
         width: 100%;
         text-align: center;
     }
@@ -63,9 +63,11 @@ header{
         transition: 0.5s;
         box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
         border-style: none;
+        background-color: #093774;
+        color: white;
     }
     #login:hover{
-        background-color: rgb(199, 199, 255);
+        background-color: rgb(101, 101, 235);
     }
 }    
 footer{

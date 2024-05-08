@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EPTRAN</title>
+    <link rel="stylesheet" href="../../style/style.css">
 </head>
 <body>
+    <header>
+        <div id="logo">
+            <img src="../../style/img/joinville.png" alt="" width="80%">
+        </div>
+        <div id="menu">
+            <div id="menu-icon">
+                <div class="dash">
+
+                </div>
+                <div class="space">
+
+                </div>
+                <div class="dash">
+
+                </div>
+                <div class="space">
+
+                </div>
+                <div class="dash">
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="as">
+        <div>
+            <div >
+            <div id="login">
+                <h1>Cadastro</h1>
+            </div>
+            <div id="inputs">
+                <div id="labels">
+                    
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <label for="senha">Senha:</label>
+                    <br>
+                    <label for="repetir-senha">Repita a senha:</label>
+                    <br>
+                    <label for="serie">Série:</label>
+                </div>
+                <div id="input-boxes">
+                    <input type="text" id="nome" name="nome" required/>
+                    <div class="space"></div>
+                    <input type="email" id="email" name="email" required/>
+                    <div class="space"></div>
+                    <input type="password" id="senha" name="senha" required/>
+                    <div class="space"></div>
+                    <input type="password" id="repetir-senha" name="repetir-senha" required/>
+                    <div class="space"></div>
+                    <select name="serie">
+                        <option value="iniciais">Inicial</option>
+                        <option value="finais" selected>Final</option>
+                        <option value="medio">Ensino médio</option>
+                      </select>
+                </div>
+            </div>
+                
+        </div>
+            <br>
+            <button id="entrar" onclick="Login()">Entrar</button>
+        
+        </div>
+        
+    </div>
     
+    <footer>
+        <p>Direitos reservados à EPTRAN - Joinville - 2024</p>
+    </footer>
 </body>
 </html>

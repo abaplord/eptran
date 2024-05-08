@@ -10,11 +10,6 @@ html, body{
     font-family: Montserrat;
     color: white;
 }
-
-button{
-    font-family: Montserrat;
-}
-
 header{
     height: 20vmin ;
     width: 100%;
@@ -33,7 +28,7 @@ header{
         height: fit-content;
         display: flex;
         justify-content: right;
-        margin-right: 4vmin;
+        margin-right: 2vmin;
         .dash{
             height: 1.5vmin;
             width: 12vmin;
@@ -83,4 +78,25 @@ footer{
     p{
         font-size: 4vw;
     }
+}
+
+.as{
+    text-align: center;
+    margin-top: 60vmin;
+    color: yellow;
+    background-color: #093774;
+    border-radius: 20vmin;
+    border-style:solid;
+    border-color: black;
+}
+
+#entrar{
+    margin-top: 5vmin;
+    color: yellow;
+    background-color: #093774;
+    width: 50vmin;
+    height: 15vmin;
+    border-radius: 10vmin;
+    border-style: solid;
+    border-color: black;
 }

@@ -10,6 +10,10 @@ html, body{
     font-family: Montserrat;
     color: white;
 }
+
+button{
+    font-family: Montserrat;
+}
 header{
     height: 20vmin ;
     width: 100%;
@@ -64,7 +68,17 @@ header{
     #login:hover{
         background-color: rgb(101, 101, 235);
     }
-}    
+}  
+
+#buttons-section{
+    font-size: 3vw;
+    color: #093774;
+    section{
+        height: 2vmin;
+        
+    }
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -80,23 +94,53 @@ footer{
     }
 }
 
+/*login*/
+
+
+#login{
+    h1{
+        font-size: 10vw;
+    }
+}
+#inputs{
+    display: flex;
+    gap: 1vmin;
+    #labels{
+        text-align: right;
+        width: 35%;
+        font-size: 4.5vw;
+    }
+    #input-boxes{
+        width:65%;
+        text-align: left;
+        input{
+            border-radius: 5px;
+            width: 40vmin;
+            border-style: none;
+        }
+    }
+}
+
 .as{
+    height: 80vmin;
     text-align: center;
-    margin-top: 60vmin;
-    color: yellow;
+    margin: 10vmin;
+    margin-top: 40vmin;
+    color: white;
     background-color: #093774;
-    border-radius: 20vmin;
-    border-style:solid;
-    border-color: black;
+    border-radius: 30px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #entrar{
-    margin-top: 5vmin;
+    margin-top: 2vmin;
+    width: 30vmin;
     color: yellow;
-    background-color: #093774;
-    width: 50vmin;
+    background-color: white;
     height: 15vmin;
     border-radius: 10vmin;
-    border-style: solid;
-    border-color: black;
+    border-style: none;
 }

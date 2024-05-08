@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EPTRAN</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
     <header>
         <div id="logo">
-            <img src="../img/joinville.png" alt="" width="80%">
+            <img src="../style/img/joinville.png" alt="" width="80%">
         </div>
         <div id="menu">
             <div id="menu-icon">
@@ -32,24 +32,17 @@
         </div>
 
     </header>
-    <div class="as">
-        
-        <div id="login">
-        <div>
-            <h1>Login</h1>
-            <label for="nome">Email:</label>
-            <input type="text" id="nome" name="nome" required/>
-        </div>
-        <div>
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" required/>
-        </div>
-        </div>
-            <br>
-            <button id="entrar"onclick = "Login()">Entrar:</button>
-        
-    </div>
-    
+    <section id="content">
+        <section id="logo">
+            <img src="../style/img/logoeptran.png" alt="" width="80%">
+        </section>
+        <section id="buttons-section">
+            <a href="./login/login.html"><button id="login" type="button" onclick="">Faça Login</button></a>
+            <section>
+            </section>
+            <a href="./cadastro/cadastro.html" id="cadastro">Não tem cadastro? Faça aqui.</a>
+        </section>
+    </section>
     <footer>
         <p>Direitos reservados à EPTRAN - Joinville - 2024</p>
     </footer>

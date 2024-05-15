@@ -23,14 +23,10 @@ header{
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 94, 0.781);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-    #logo{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    margin-left: 2vmin;
-    }    
 }
-
+#logo{
+    width: 50%;
+}    
 #menu{
         width: 50%;
         height: fit-content;
@@ -106,35 +102,28 @@ footer{
         font-size: 10vw;
     }
 }
-
-.inputandfield{
+#inputs{
     display: flex;
-    margin-bottom: 2vmin;
-    gap: 2vmin;
-    div{
-        width: 100%;
+    gap: 1vmin;
+    display: flex;
+    align-items: center;
+
+    #labels{
+        text-align: right;
+        width: 35%;
+        font-size: 4.5vw;
     }
-    .label{
-        display: flex;
-        justify-content: left;
-    }
-    .input-boxes{
-        display: flex;
-        justify-content: right;
+    #input-boxes{
+        width:65%;
+        text-align: left;
         input{
             border-radius: 5px;
             height: 5vmin;
             width: 40vmin;
             border-style: none;
         }
-        select{
-            background-color: white;
-            border-style: none;
-            border-radius: 5px;
-            color: #093774;
-        }
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
     }
-    
 }
 
 .space{
@@ -155,7 +144,7 @@ footer{
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
-#entrar{
+#enter{
     width: 30vmin;
     color:#093774;
     background-color: white;
@@ -164,4 +153,26 @@ footer{
     border-style: none;
     font-size: 4vw;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+#seriesf{
+    color: rgb(238, 255, 0);
+    font-size: 15vmin;
+    text-align: center;
+    margin-top: 15vmin;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+
+}
+
+#video1{
+    margin-left: 10vmin;
+    border-radius: 5vmin;
+    margin-bottom: 10vmin;
+}
+
+#video2{
+    margin-left: 10vmin;
+    border-radius: 5vmin;
 }

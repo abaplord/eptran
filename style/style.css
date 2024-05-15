@@ -15,7 +15,7 @@ button{
     font-family: Montserrat;
 }
 header{
-    height: 20vmin ;
+    height: 10% ;
     width: 100%;
     background-color:#093774;
     display: flex;
@@ -24,10 +24,10 @@ header{
     border-bottom: 1px solid rgba(0, 0, 94, 0.781);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
     #logo{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    margin-left: 2vmin;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        margin-left: 2vmin;
     }    
 }
 
@@ -53,7 +53,7 @@ header{
 #content{
     text-align: center;
     #logo{
-        margin-top: 20vmax;
+        margin-top: 20vmin;
         width: 100%;
         text-align: center;
     }
@@ -89,7 +89,7 @@ footer{
     align-items: center;
     position: absolute;
     bottom: 0;
-    height: 15vmin ;
+    height: 8%;
     width: 100%;
     background-color:#093774;
     box-shadow: rgba(0, 0, 0, 0.5) 0px -3px 8px;
@@ -140,18 +140,26 @@ footer{
 .space{
     height: 2vmin;
 }
-.as{
+
+#cell{
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#content-cadastro{
+    display: flex;
+    align-items: center;
     height: 100vmin;
     text-align: center;
-    margin: 10vmin;
-    margin-top: 40%;
     color: white;
     background-color: #093774;
     border-radius: 30px;
     border-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 

@@ -23,10 +23,14 @@ header{
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 94, 0.781);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-}
-#logo{
+    #logo{
     width: 50%;
-}    
+    display: flex;
+    align-items: center;
+    margin-left: 2vmin;
+    }    
+}
+
 #menu{
         width: 50%;
         height: fit-content;
@@ -102,28 +106,35 @@ footer{
         font-size: 10vw;
     }
 }
-#inputs{
-    display: flex;
-    gap: 1vmin;
-    display: flex;
-    align-items: center;
 
-    #labels{
-        text-align: right;
-        width: 35%;
-        font-size: 4.5vw;
+.inputandfield{
+    display: flex;
+    margin-bottom: 2vmin;
+    gap: 2vmin;
+    div{
+        width: 100%;
     }
-    #input-boxes{
-        width:65%;
-        text-align: left;
+    .label{
+        display: flex;
+        justify-content: left;
+    }
+    .input-boxes{
+        display: flex;
+        justify-content: right;
         input{
             border-radius: 5px;
             height: 5vmin;
             width: 40vmin;
             border-style: none;
         }
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+        select{
+            background-color: white;
+            border-style: none;
+            border-radius: 5px;
+            color: #093774;
+        }
     }
+    
 }
 
 .space{

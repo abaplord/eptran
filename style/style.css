@@ -37,7 +37,7 @@ header{
         height: fit-content;
         display: flex;
         justify-content: right;
-        margin-right: 4vmin;
+        margin-right: 2vmin;
         .dash{
             height: 1.5vmin;
             width: 12vmin;
@@ -85,8 +85,6 @@ header{
 }
 
 footer{
-    position: fixed;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,42 +108,28 @@ footer{
         font-size: 10vw;
     }
 }
-#main-content{
-    margin: 10vmin;
-}
-
-.inputandfield{
-    font-size: 3.5vw;
+#inputs{
     display: flex;
-    margin-bottom: 2vmin;
-    gap: 2vmin;
-    div{
-        width: 100%;
+    gap: 1vmin;
+    display: flex;
+    align-items: center;
+
+    #labels{
+        text-align: right;
+        width: 35%;
+        font-size: 4.5vw;
     }
-    .label{
-        display: flex;
-        justify-content: left;
+    #input-boxes{
+        width:65%;
         text-align: left;
-    }
-    .input-boxes{
-        display: flex;
-        justify-content: right;
         input{
             border-radius: 5px;
             height: 5vmin;
-            width: 100%;
+            width: 40vmin;
             border-style: none;
         }
-        select{
-            width: 80%;
-            height: 5vmin;
-            background-color: white;
-            border-style: none;
-            border-radius: 5px;
-            color: #093774;
-        }
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
     }
-    
 }
 
 .space{
@@ -160,9 +144,9 @@ footer{
     border-radius: 20px;
     border-style: none;
     display: flex;
-    justify-content: center;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    justify-content: center;
+
 }
 
 #content-cadastro{
@@ -170,8 +154,6 @@ footer{
     align-items: center;
     height: 100vmin;
     text-align: center;
-    margin: 10vmin;
-    height: 100vmin;
     color: white;
     background-color: #093774;
     border-radius: 30px;
@@ -192,11 +174,11 @@ footer{
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
-#seriesf, #seriese{
+#seriesf{
     color: rgb(238, 255, 0);
     font-size: 15vmin;
     text-align: center;
-    margin-top: 15vmin;
+    margin-top: 10vmin;
     -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
@@ -212,7 +194,6 @@ footer{
 #video2{
     margin-left: 10vmin;
     border-radius: 5vmin;
-    margin-bottom: 10vmin;
 }
 
 #game{
@@ -222,16 +203,6 @@ footer{
    background-color: yellow;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
-}
-
-#regras{
-   margin-left: 18vmin;
-   border-radius: 2vmin;
-   font-size: 7vmin;
-   background-color: yellow;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
-   margin-bottom: 10vmin;
 }
 
 #books{
@@ -259,3 +230,17 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
  }
+
+ #series_iniciais{
+    background-image:url(../style/img/series_iniciais\ traffic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ #ensino_medio{
+    background-image:url(../style/img/ensino_medio\ traffic.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+

@@ -189,7 +189,7 @@ footer{
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
-#seriesf{
+#seriesf, #seriese{
     color: rgb(238, 255, 0);
     font-size: 15vmin;
     text-align: center;
@@ -256,6 +256,16 @@ footer{
     background-image:url(../style/img/ensino_medio\ traffic.webp);
     background-repeat: no-repeat;
     background-size: cover;
+ }
+
+ #regras{
+    margin-left: 18vmin;
+    border-radius: 2vmin;
+    font-size: 7vmin;
+    background-color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 10vmin;
  }
 
 

@@ -13,6 +13,7 @@ html, body{
 
 button{
     font-family: Montserrat;
+    font-size: 2vw;
 }
 header{
     height: 10% ;
@@ -89,7 +90,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100th;
     height: 15vmin ;
     position: fixed;
     bottom: 0;
@@ -157,7 +157,7 @@ footer{
     height: 100vmin;
     color: white;
     background-color: #093774;
-    border-radius: 30px;
+    border-radius: 20px;
     border-style: none;
     display: flex;
     justify-content: center;

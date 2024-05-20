@@ -1,73 +1,63 @@
 @font-face {
     font-family: "Montserrat";
     src: url("./font/Montserrat-VariableFont_wght.ttf");
-}
+    }
 
-body {
-    min-height: 100vh;
-    margin: 0;
-}
-
-html,
-body {
+html, body{
+    height: 100%;
+    width: 100%;
     margin: 0;
     font-family: Montserrat;
     color: white;
 }
 
-button {
+button{
     font-family: Montserrat;
 }
-
-header {
-    height: 10%;
+header{
+    height: 10% ;
     width: 100%;
-    background-color: #093774;
+    background-color:#093774;
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 94, 0.781);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-
-    #logo {
+    #logo{
         width: 50%;
         display: flex;
         align-items: center;
         margin-left: 2vmin;
-    }
+    }    
 }
 
-#menu {
-    width: 50%;
-    height: fit-content;
-    display: flex;
-    justify-content: right;
-    margin-right: 2vmin;
-
-    .dash {
-        height: 1.5vmin;
-        width: 12vmin;
-        background-color: rgb(255, 255, 255);
-        box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+#menu{
+        width: 50%;
+        height: fit-content;
+        display: flex;
+        justify-content: right;
+        margin-right: 2vmin;
+        .dash{
+            height: 1.5vmin;
+            width: 12vmin;
+            background-color: rgb(255, 255, 255);
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+        }
+        .space{
+            height: 2vmin;
+            width: 12vmin;
+            opacity: 0%;
+        }
     }
 
-    .space {
-        height: 2vmin;
-        width: 12vmin;
-        opacity: 0%;
-    }
-}
-
-#content {
+#content{
     text-align: center;
-
-    #logo {
+    #logo{
         margin-top: 20vmin;
         width: 100%;
         text-align: center;
     }
-
-    button {
+    button{
         margin-top: 10%;
         width: 30%;
         height: 5vmax;
@@ -79,23 +69,21 @@ header {
         background-color: #093774;
         color: white;
     }
-
-    #login:hover {
+    #login:hover{
         background-color: rgb(101, 101, 235);
     }
-}
+}  
 
-#buttons-section {
+#buttons-section{
     font-size: 3vw;
     color: #093774;
-
-    section {
+    section{
         height: 2vmin;
-
+        
     }
 }
 
-footer {
+footer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,10 +91,9 @@ footer {
     bottom: 0;
     height: 8%;
     width: 100%;
-    background-color: #093774;
+    background-color:#093774;
     box-shadow: rgba(0, 0, 0, 0.5) 0px -3px 8px;
-
-    p {
+    p{
         font-size: 4vw;
     }
 }
@@ -114,44 +101,40 @@ footer {
 /*login*/
 
 
-#login {
-    h1 {
+#login{
+    h1{
         font-size: 10vw;
     }
 }
-
-#inputs {
+#inputs{
     display: flex;
     gap: 1vmin;
     display: flex;
     align-items: center;
 
-    #labels {
+    #labels{
         text-align: right;
         width: 35%;
         font-size: 4.5vw;
     }
-
-    #input-boxes {
-        width: 65%;
+    #input-boxes{
+        width:65%;
         text-align: left;
-
-        input {
+        input{
             border-radius: 5px;
             height: 5vmin;
             width: 40vmin;
             border-style: none;
         }
-
         box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
     }
 }
 
-.space {
+.space{
     height: 2vmin;
 }
 
-#cell {
+#cell{
     height: 82%;
     display: flex;
     align-items: center;
@@ -159,7 +142,7 @@ footer {
 
 }
 
-#content-cadastro {
+#content-cadastro{
     display: flex;
     align-items: center;
     height: 100vmin;
@@ -173,9 +156,9 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
-#enter {
+#enter{
     width: 30vmin;
-    color: #093774;
+    color:#093774;
     background-color: white;
     height: 15vmin;
     border-radius: 15px;
@@ -184,28 +167,61 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
-#seriesf {
+#seriesf{
     color: rgb(238, 255, 0);
     font-size: 15vmin;
     text-align: center;
     margin-top: 15vmin;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: black;
 
 
 }
 
-#video1 {
+#video1{
     margin-left: 10vmin;
     border-radius: 5vmin;
     margin-bottom: 10vmin;
 }
 
-#video2 {
+#video2{
     margin-left: 10vmin;
     border-radius: 5vmin;
 }
 
-#teste {
-    background-color: blue;
+#game{
+   margin-left: 32vmin;
+   border-radius: 2vmin;
+   font-size: 10vmin;
+   background-color: yellow;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
 }
+
+#books{
+    margin-top: 10vmin;
+    margin-left: 32vmin;
+    border-radius: 2vmin;
+    font-size: 10vmin;
+    background-color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black
+ }
+
+ #signs{
+    margin-top: 10vmin;
+    margin-left: 32vmin;
+    border-radius: 2vmin;
+    font-size: 10vmin;
+    background-color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black
+ }
+
+ #series_finais{
+    background-image:url(../style/img/series_finais\ traffic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+

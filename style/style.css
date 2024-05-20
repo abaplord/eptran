@@ -36,7 +36,7 @@ header{
         height: fit-content;
         display: flex;
         justify-content: right;
-        margin-right: 2vmin;
+        margin-right: 4vmin;
         .dash{
             height: 1.5vmin;
             width: 12vmin;
@@ -84,9 +84,13 @@ header{
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100th;
+    height: 15vmin ;
     position: fixed;
     bottom: 0;
     height: 8%;
@@ -123,7 +127,7 @@ footer{
         input{
             border-radius: 5px;
             height: 5vmin;
-            width: 40vmin;
+            width: 100%;
             border-style: none;
         }
         box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
@@ -133,6 +137,7 @@ footer{
 .space{
     height: 2vmin;
 }
+.cell{
 
 #cell{
     height: 82%;
@@ -147,6 +152,8 @@ footer{
     align-items: center;
     height: 100vmin;
     text-align: center;
+    margin: 10vmin;
+    height: 100vmin;
     color: white;
     background-color: #093774;
     border-radius: 30px;

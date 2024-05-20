@@ -36,7 +36,7 @@ header{
         height: fit-content;
         display: flex;
         justify-content: right;
-        margin-right: 2vmin;
+        margin-right: 4vmin;
         .dash{
             height: 1.5vmin;
             width: 12vmin;
@@ -84,11 +84,12 @@ header{
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 0;
+    min-height: 100th;
     height: 15vmin ;
     width: 100%;
     background-color:#093774;
@@ -107,7 +108,12 @@ footer{
     }
 }
 
+#main-content{
+    margin: 10vmin;
+}
+
 .inputandfield{
+    font-size: 3.5vw;
     display: flex;
     margin-bottom: 2vmin;
     gap: 2vmin;
@@ -117,6 +123,7 @@ footer{
     .label{
         display: flex;
         justify-content: left;
+        text-align: left;
     }
     .input-boxes{
         display: flex;
@@ -124,10 +131,12 @@ footer{
         input{
             border-radius: 5px;
             height: 5vmin;
-            width: 40vmin;
+            width: 100%;
             border-style: none;
         }
         select{
+            width: 80%;
+            height: 5vmin;
             background-color: white;
             border-style: none;
             border-radius: 5px;
@@ -140,11 +149,10 @@ footer{
 .space{
     height: 2vmin;
 }
-.as{
-    height: 100vmin;
+.cell{
     text-align: center;
     margin: 10vmin;
-    margin-top: 40%;
+    height: 100vmin;
     color: white;
     background-color: #093774;
     border-radius: 30px;
@@ -155,7 +163,7 @@ footer{
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
-#entrar{
+#enter{
     width: 30vmin;
     color:#093774;
     background-color: white;

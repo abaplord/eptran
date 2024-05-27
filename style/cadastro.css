@@ -1,0 +1,76 @@
+
+
+#content{
+    text-align: center;
+    #logo{
+        margin-top: 20vmin;
+        width: 100%;
+        text-align: center;
+    }
+    button{
+        margin-top: 10%;
+        width: 30%;
+        height: 5vmax;
+        border-radius: 5px;
+        font-size: 3vw;
+        transition: 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+        border-style: none;
+        background-color: #093774;
+        color: white;
+    }
+    #login:hover{
+        background-color: rgb(101, 101, 235);
+    }
+}  
+
+.inputandfield{
+    font-size: 3.5vw;
+    display: flex;
+    margin-bottom: 2vmin;
+    gap: 2vmin;
+    div{
+        width: 100%;
+    }
+    .label{
+        display: flex;
+        justify-content: left;
+        text-align: left;
+    }
+    .input-boxes{
+        display: flex;
+        justify-content: right;
+        input{
+            border-radius: 5px;
+            height: 5vmin;
+            width: 100%;
+            border-style: none;
+        }
+        select{
+            width: 80%;
+            height: 5vmin;
+            background-color: white;
+            border-style: none;
+            border-radius: 5px;
+            color: #093774;
+        }
+    }
+    
+}
+
+.cell{
+    display: flex;
+    align-items: center;
+    margin: 10vmin;
+    margin-top: 30vmin;
+    margin-bottom: 30vmin;
+    height: 50%;
+    text-align: center;
+    color: white;
+    background-color: #093774;
+    border-radius: 30px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}

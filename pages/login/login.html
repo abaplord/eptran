@@ -23,36 +23,37 @@
             </div>
         </div>
     </header>
-    <div class="cell">
-        <div id="main-content">
-            <div>
-                <div id="login">
-                    <h1>Login</h1>
+    <section>
+        <div class="cell">
+            <div id="main-content">
+                <div>
+                    <div id="login">
+                        <h1>Login</h1>
+                    </div>
+                    <div id="inputs">
+                        <section class="inputandfield">
+                            <div class="label">
+                                <label for="email">Email:</label>
+                            </div>
+                            <div class="input-boxes">
+                                <input type="email" id="email" name="email" required/>
+                            </div>
+                        </section>
+                        <section class="inputandfield">
+                            <div class="label">
+                                <label for="senha">Senha:</label>
+                            </div>
+                            <div class="input-boxes">
+                                <input type="password" id="senha" name="senha" required/>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-                <div id="inputs">
-                    <section class="inputandfield">
-                        <div class="label">
-                            <label for="email">Email:</label>
-                        </div>
-                        <div class="input-boxes">
-                            <input type="email" id="email" name="email" required/>
-                        </div>
-                    </section>
-                    <section class="inputandfield">
-                        <div class="label">
-                            <label for="senha">Senha:</label>
-                        </div>
-                        <div class="input-boxes">
-                            <input type="password" id="senha" name="senha" required/>
-                        </div>
-                    </section>
-                </div>
+                <br>
+                <button id="submit" onclick="Login()">Entrar</button>
             </div>
-            <br>
-            <button id="enter" onclick="Login()">Entrar</button>
         </div>
-    </div>
-    
+    </section>
     <footer>
         <p>Direitos reservados à EPTRAN - Joinville - 2024</p>
     </footer>

@@ -1,28 +1,9 @@
 
 
-#content{
-    text-align: center;
-    #logo{
-        margin-top: 20vmin;
-        width: 100%;
-        text-align: center;
-    }
-    button{
-        margin-top: 10%;
-        width: 30%;
-        height: 5vmax;
-        border-radius: 5px;
-        font-size: 3vw;
-        transition: 0.5s;
-        box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-        border-style: none;
-        background-color: #093774;
-        color: white;
-    }
-    #login:hover{
-        background-color: rgb(101, 101, 235);
-    }
-}  
+#main-content{
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+}
 
 .inputandfield{
     font-size: 3.5vw;
@@ -59,12 +40,6 @@
 }
 
 .cell{
-    display: flex;
-    align-items: center;
-    margin: 10vmin;
-    margin-top: 30vmin;
-    margin-bottom: 30vmin;
-    height: 50%;
     text-align: center;
     color: white;
     background-color: #093774;
@@ -73,4 +48,12 @@
     display: flex;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+section{
+    width: 100%;
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -4,6 +4,7 @@ footer{
     align-items: center;
     height: 15vmin ;
     bottom: 0;
+    position: fixed;
     height: 8%;
     width: 100%;
     background-color:#093774;

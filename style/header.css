@@ -18,6 +18,7 @@ button{
 
 #submit{
     width: 30vmin;
+    margin: 5vmin;
     color:#093774;
     background-color: white;
     height: 15vmin;
@@ -56,9 +57,11 @@ header{
     border-bottom: 1px solid rgba(0, 0, 94, 0.781);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
     #logo{
-        width: 50%;
         display: flex;
         align-items: center;
         margin-left: 2vmin;
+        img{
+            max-height: 10vmin;
+        }
     }
 }

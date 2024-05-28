@@ -1,0 +1,26 @@
+#content {
+    text-align: center;
+}
+
+img{
+    max-height: 30vmin;
+}
+
+#cell {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login{
+    width: 30vmin;
+    margin: 5vmin;
+    color:white;
+    background-color: #093774;
+    height: 15vmin;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 4vw;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}

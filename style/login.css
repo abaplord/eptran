@@ -32,6 +32,7 @@ section{
 #main-content{
     margin-left: 10vmin;
     margin-right: 10vmin;
+    font-size: 5vw;
 }
 
 .inputandfield{
@@ -80,5 +81,5 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }

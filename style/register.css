@@ -3,6 +3,7 @@
 #main-content{
     margin-left: 10vmin;
     margin-right: 10vmin;
+    font-size: 5vw;
 }
 
 .inputandfield{
@@ -40,6 +41,7 @@
 }
 
 .cell{
+    
     text-align: center;
     color: white;
     background-color: #093774;

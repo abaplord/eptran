@@ -14,13 +14,17 @@ img{
 }
 
 #login{
-    width: 30vmin;
+    width: 50%;
     margin: 5vmin;
     color:white;
     background-color: #093774;
-    height: 15vmin;
+    height: 70%;
     border-radius: 15px;
     border-style: none;
     font-size: 4vw;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    font-size: 4vw;
+}
+a{
+    font-size: 3vw;
 }

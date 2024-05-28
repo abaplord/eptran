@@ -1,7 +1,7 @@
 #video1{
     margin-left: 10vmin;
     border-radius: 5vmin;
-    margin-bottom: 10vmin;
+    margin-bottom: 5vmin;
 }
 
 #video2{
@@ -14,3 +14,22 @@
     background-repeat: no-repeat;
     background-size: cover;
  }
+
+ #regras {
+    margin-left: 18vmin;
+    border-radius: 2vmin;
+    font-size: 7vmin;
+    background-color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 10vmin;
+}
+
+#series{
+    color: rgb(238, 255, 0);
+    font-size: 15vmin;
+    text-align: center;
+    margin-top: 1vmin;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}

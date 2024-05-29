@@ -6,6 +6,7 @@
     <title>EPTRAN</title>
     <link rel="stylesheet" href="../style/register.css">
     <link rel="stylesheet" href="../style/style.css">
+    <script src="../scripts/userManager.js"></script>
 </head>
 <body>
     <header>
@@ -67,7 +68,7 @@
                                 <label for="serie">Série:</label>
                             </div>
                             <div class="input-boxes">
-                                <select name="serie">
+                                <select name="serie" id="serie">
                                     <option value="iniciais">Inicial</option>
                                     <option value="finais" selected>Final</option>
                                     <option value="medio">Ensino médio</option>
@@ -77,7 +78,7 @@
                     </div>
                 </div>
                 <br>
-                <button id="submit" onclick="Login()">Entrar</button>
+                <button id="submit" onclick="register()">Entrar</button>
             </div>
         </div>
     </section>

@@ -33,6 +33,7 @@ section{
     margin-left: 10vmin;
     margin-right: 10vmin;
     font-size: 5vw;
+    max-height: 82%;
 }
 
 .inputandfield{

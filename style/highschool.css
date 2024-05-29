@@ -1,27 +1,27 @@
-#ensino_medio{
-    background-image:url(../style/img/ensino_medio\ traffic.webp);
+#ensino_medio {
+    background-image: url(../style/img/ensino_medio\ traffic.webp);
     background-repeat: no-repeat;
     background-size: cover;
- }
+}
 
- #video1{
+#video1 {
     margin-left: 10vmin;
     border-radius: 5vmin;
     margin-bottom: 10vmin;
 }
 
-#video2{
+#video2 {
     margin-left: 10vmin;
     border-radius: 5vmin;
 }
 
-#ensino_medio{
-    background-image:url(../style/img/ensino_medio\ traffic.webp);
+#ensino_medio {
+    background-image: url(../style/img/ensino_medio\ traffic.webp);
     background-repeat: no-repeat;
     background-size: cover;
- }
+}
 
- #regras{
+#regras {
     margin-left: 18vmin;
     border-radius: 2vmin;
     font-size: 7vmin;
@@ -29,4 +29,13 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     margin-bottom: 10vmin;
- }
+}
+
+#seriese {
+    color: rgb(238, 255, 0);
+    font-size: 15vmin;
+    text-align: center;
+    margin-top: 10vmin;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}

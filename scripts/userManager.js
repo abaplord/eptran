@@ -1,55 +1,68 @@
 var usuarios = []
 
+const Grade = {
+    ELEMENTARYSCHOOL: "iniciais",
+    HIGHSCHOOL: "finais",
+    MIDDLESCHOOL: "medio"
+};
 
-// Cadastrar um novo usuário
-// TODO: conexao com banco de dados. ( no momento esta apenas cadastrando usuario em runtime )
 function register() {
-    let nome = document.getElementById("nome").value;
+    let name = document.getElementById("nome").value;
     let email = document.getElementById("email").value;
-    let senha = document.getElementById("senha").value;
-    let repetirSenha = document.getElementById("repetir-senha").value;
-    
-    //Confirmar senha
-    if (senha != repetirSenha) {
-        //Confirmacao de senha nao corresponde a senha original
+    let password = document.getElementById("senha").value;
+    let passwordConfirmation = document.getElementById("repetir-senha").value;
+    let grade = document.getElementById("serie").value;
+
+    if (password != passwordConfirmation) {
         alert("Confirme sua senha.")
         return;
     }
 
     for (let i = 0; i < usuarios.length; i++) {
-        // Loop em cada usuario cadastrado
-        if (usuarios[i].email == email || usuarios[i].nome == nome) {
-            // Se tiver alguem com o mesmo email e o mesmo nome, nao continuar
+        if (usuarios[i].email == email || usuarios[i].name == name) {
             alert("Usuario ja cadastrado.")
             return;
         }
     }
 
-    // Se chegamos aqui e porque passamos por todas as validacoes
-    // E assim podemos criar um novo usuario
-    usuarios.push({nome: nome, email: email, senha: senha})
+    usuarios.push({ name: name, email: email, password: password, grade: grade })
+    redirectUser(grade);
 }
 
 function login() {
-    let nome = document.getElementById("nome").value;
-    let senha = document.getElementById("senha").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("senha").value;
 
     for (let i = 0; i < usuarios.length; i++) {
-        // Loop em todos os usuarios
-        if (usuarios[i].email == nome && usuarios[i].senha == senha) {
-            // Se um usuario corresponde ao login informado, entao deu sucesso
-            alert("Login com sucesso.")
+        if (usuarios[i].email == email && usuarios[i].password == password) {
+            redirectUser(usuarios[i].grade)
             return;
         }
     }
 
-    // Se chegamos aqui e porque nenhum usuario corresponse ao login informado
     alert("Usuario nao encontrado.")
 }
 
-function loadUsers() {
-    usuarios.push({nome: "usr", email: "email@email.com", senha: "email"})
+function redirectUser(grade) {
+
+    switch (grade) {
+        case Grade.ELEMENTARYSCHOOL:
+            window.location.href = "/pages/initial-series.html"
+            break
+        case Grade.MIDDLESCHOOL:
+            window.location.href = "/pages/highschool.html"
+            break
+        case Grade.HIGHSCHOOL:
+            window.location.href = "/pages/final-series.html"
+            break
+        default:
+            break
+    }
+
 }
 
-// Carregar um usuario mockado para testes
+function loadUsers() {
+    usuarios.push({ name: "usr", email: "email@email.com", password: "email", grade: Grade.ELEMENTARYSCHOOL })
+}
+
 loadUsers()

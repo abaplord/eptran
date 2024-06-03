@@ -3,7 +3,10 @@ dropdown = document.getElementById("dropdown")
 var flag_open = false
 menu.addEventListener("click", function (e) {
     if (flag_open == false){
-        menu.style.cssText = `transition: 1s; 
+        menu.style.cssText = 
+                            `
+                            width: fit-content;
+                            transition: 1s; 
                             -webkit-transform: rotate(90deg); 
                             -moz-transform: rotate(90deg); 
                             -o-transform: rotate(90deg); 
@@ -26,7 +29,8 @@ menu.addEventListener("click", function (e) {
                                 box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;`
         flag_open = true
     }else{
-        menu.style.cssText = `transition: 1s;`
+        menu.style.cssText = `  width: fit-content;
+                                transition: 1s;`
         dropdown.style.cssText = `transition: 1s;`
         dropdown.innerHTML = ``
         flag_open = false

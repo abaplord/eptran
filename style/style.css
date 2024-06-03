@@ -81,7 +81,10 @@ header{
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 94, 0.781);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-    #logo{
+    div{
+        width: 100%;
+    }
+    #logo-joinville{
         display: flex;
         align-items: center;
         margin-left: 2vmin;
@@ -89,8 +92,30 @@ header{
             max-height: 10vmin;
         }
     }
+    #logo-eptran{
+        display: flex;
+        align-items: center;
+        justify-content: center ;
+        img{
+            max-height: 10vmin;
+        }
+    }
+    #menu-container{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
 }
 
+#footer-gap{
+    height: 8%;
+}
+
+iframe{
+    width: fit-content;
+    max-width: 100%;
+    background-color: #093774;
+}
 
 footer{
     display: flex;
@@ -106,6 +131,30 @@ footer{
     box-shadow: rgba(0, 0, 0, 0.5) 0px -3px 8px;
     p{
         font-size: 4vw;
+    }
+    div{
+        width: 100%;
+    }
+    .logo-1{
+        display: flex;
+        justify-content: right;
+    }
+    .logo-2{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-3{
+        display: flex;
+        justify-content: left;
+    }
+    .logo-footer{
+        display: flex;
+        align-items: center;
+        margin-left: 2vmin;
+        img{
+            max-height: 9vmin;
+        }
     }
 }
 

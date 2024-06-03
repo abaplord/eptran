@@ -7,37 +7,22 @@
   -webkit-text-stroke-color: black;
 }
 
-#game{
-    margin-left: 32vmin;
-    border-radius: 2vmin;
-    font-size: 10vmin;
-    background-color: yellow;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
- }
- 
- #books{
-     margin-top: 10vmin;
-     margin-left: 32vmin;
-     border-radius: 2vmin;
-     font-size: 10vmin;
-     background-color: yellow;
-     -webkit-text-stroke-width: 1px;
-     -webkit-text-stroke-color: black
-  }
- 
-  #signs{
-     margin-top: 10vmin;
-     margin-left: 32vmin;
-     border-radius: 2vmin;
-     font-size: 10vmin;
-     background-color: yellow;
-     -webkit-text-stroke-width: 1px;
-     -webkit-text-stroke-color: black
-  }
-
+#content{
+   display: flex;
+   justify-content: center;
+   #buttons-div{
+      text-align: center;
+      button{
+         margin: 3vmin;
+         height: 10vmin;
+         width: 30vmin;
+         background-color: rgb(238, 255, 0);
+         border-style: none;
+         box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+      }
+   }
+}
   #series_finais{
-    background-image:url(../style/img/series_finais\ traffic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
  }

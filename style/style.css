@@ -49,11 +49,10 @@ button{
 }
   
 #menu{
-    width: 50%;
+    width: 60%;
     height: fit-content;
     display: flex;
-    justify-content: right;
-    margin-right: 2vmin;
+    justify-content: center;
     .dash{
         height: 1.5vmin;
         width: 12vmin;
@@ -69,6 +68,7 @@ button{
 
 #menu-icon{
     transition: 1s;
+    width: fit-content;
 }
 @media only screen and (max-width: 600px) and (min-height:545px ) {
 

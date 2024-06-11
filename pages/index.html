@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,23 @@
     <link rel="stylesheet" href="../style/index.css">
     <script src="../scripts/loader.js"></script>
 </head>
+
 <body>
-    <div id="loader" class="center"></div>
+    <div id="loader">
+        <div id="content">
+            <div id="logo">
+                <img src="../style/img/eptran-logo.png" alt="">
+            </div>
+            <div id="loading">
+                <svg viewBox="25 25 50 50">
+                    <circle r="20" cy="50" cx="50"></circle>
+                </svg>
+            </div>
+            <div id="title">
+                Carregando...
+            </div>
+        </div>
+    </div>
     <header>
         <div id="logo-joinville">
             <img src="../style/img/joinville-logo.png" alt="" onclick="window.location.href = '/pages/index.html'">
@@ -26,7 +42,7 @@
                     <div class="space"></div>
                     <div class="dash"></div>
                 </div>
-            </div>  
+            </div>
         </div>
     </header>
     <div id="dropdown">
@@ -47,21 +63,22 @@
         </section>
     </section>
     <div id="footer-gap"></div>
-        <footer>
-            <div class="logo-footer logo-1">
-                <img src="../style/img/footer1.png">
-            </div>
-            <div class="logo-footer logo-2">
-                <img src="../style/img/footer2.png">
-            </div>
-            <div class="logo-footer logo-3">
-                <img src="../style/img/footer3.png">
-            </div>        
-        </footer>
+    <footer>
+        <div class="logo-footer logo-1">
+            <img src="../style/img/footer1.png">
+        </div>
+        <div class="logo-footer logo-2">
+            <img src="../style/img/footer2.png">
+        </div>
+        <div class="logo-footer logo-3">
+            <img src="../style/img/footer3.png">
+        </div>
+    </footer>
 </body>
 <script src="../scripts/menu.js">
 
 
 
 </script>
+
 </html>

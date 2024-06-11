@@ -1,3 +1,7 @@
+body {
+    visibility: hidden;
+}
+
 #content {
     text-align: center;
 }
@@ -25,6 +29,24 @@ img{
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
     font-size: 4vw;
 }
+
+#loader{
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 a{
     font-size: 3vw;
 }

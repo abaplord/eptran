@@ -29,7 +29,8 @@ menu.addEventListener("click", function (e) {
                                 box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;`
         flag_open = true
     }else{
-        menu.style.cssText = `  width: fit-content;
+        menu.style.cssText = `  
+                                width: fit-content;
                                 transition: 1s;`
         dropdown.style.cssText = `transition: 1s;`
         dropdown.innerHTML = ``

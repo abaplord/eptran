@@ -12,14 +12,14 @@
    justify-content: center;
    #buttons-div{
       text-align: center;
-      button{
+      /* button{
          margin: 3vmin;
          height: 10vmin;
          width: 30vmin;
          background-color: rgb(238, 255, 0);
          border-style: none;
          box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-      }
+      } */
    }
 }
   #series_finais{

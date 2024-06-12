@@ -23,11 +23,11 @@ img {
     color: white;
     background-color: #093774;
     height: 70%;
+    max-height: 14vmin;
     border-radius: 15px;
     border-style: none;
-    font-size: 4vw;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
 #loader {
@@ -51,7 +51,7 @@ img {
             align-items: center;
 
             img {
-                max-width: 50%;
+                max-width: 30%;
             }
         }
 

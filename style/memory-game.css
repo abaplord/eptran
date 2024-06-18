@@ -1,0 +1,29 @@
+#content-space{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82%;
+}
+#content{
+    color: black;
+}
+
+.row{
+    display: flex;
+    gap: 1vmin;
+    margin: 1vmin;
+}
+
+.collumn{
+    border-radius: 5px;
+    width: 18vmin;
+    height: 18vmin;
+    background-color: #093774;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.cards{
+    height: 10vmin;
+    width: 10vmin;
+}

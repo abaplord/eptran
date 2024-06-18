@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPTRAN</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/quiz.css">
+    <script src="../scripts/loader.js"></script>
+    
+</head>
+
+<body>
+    <div id="loader">
+        <div id="content">
+            <div id="logo">
+                <img src="../style/img/eptran-logo.png" alt="">
+            </div>
+            <div id="loading">
+                <svg viewBox="25 25 50 50">
+                    <circle r="20" cy="50" cx="50"></circle>
+                </svg>
+            </div>
+            <div id="title">
+                Carregando...
+            </div>
+        </div>
+    </div>
+    <header>
+        <div id="logo-joinville">
+            <img src="../style/img/joinville-logo.png" alt="" onclick="window.location.href = '/pages/index.html'">
+        </div>
+        <div id="logo-eptran">
+            <img src="../style/img/eptran-logo.png" alt="">
+        </div>
+        <div id="menu-container">
+            <div id="menu">
+                <div id="menu-icon">
+                    <div class="dash"></div>
+                    <div class="space"></div>
+                    <div class="dash"></div>
+                    <div class="space"></div>
+                    <div class="dash"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="dropdown">
+        <div class="option"> <a href="./initial-series.html"></a></div>
+        <div class="option"> <a href="./highschool.html"></a></div>
+    </div>
+    <section id="cell">
+        <section id="content">
+            <div id="question">
+                <div id="statementDiv">
+                    <p id="statement">Lorem Ipsum from the baby gronk amogos</p>
+                </div>
+                <div id="answers">
+                    <div id="answerDiv1" class="answer" onclick="resolveQuestion(this)">
+                        <p id="answer1">answer1</p>
+                    </div>
+                    <div id="answerDiv2" class="answer" onclick="resolveQuestion(this)">
+                        <p id="answer2">answer2</p>
+                    </div>
+                    <div id="answerDiv3" class="answer" onclick="resolveQuestion(this)">
+                        <p id="answer3">answer3</p>
+                    </div>
+                    <div id="answerDiv4" class="answer" onclick="resolveQuestion(this)">
+                        <p id="answer4">answer4</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <div id="footer-gap"></div>
+    <footer>
+        <div class="logo-footer logo-1">
+            <img src="../style/img/footer1.png">
+        </div>
+        <div class="logo-footer logo-2">
+            <img src="../style/img/footer2.png">
+        </div>
+        <div class="logo-footer logo-3">
+            <img src="../style/img/footer3.png">
+        </div>
+    </footer>
+</body>
+<script src="../scripts/menu.js"></script>
+<script src="../scripts/quiz.js"></script>
+
+</html>
